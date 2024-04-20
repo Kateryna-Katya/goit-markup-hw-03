@@ -249,7 +249,6 @@ a {
   height: 600px;
   box-sizing: border-box;
   text-align: center;
-  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
   padding: 188px 0;
@@ -261,12 +260,15 @@ a {
   margin-right: auto;
 }
 .button {
+  display: block;
   box-sizing: border-box;
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
   margin-top: 48px;
   border: none;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section-two {
@@ -287,10 +289,16 @@ a {
 }
 .strategy-list {
   display: flex;
-  column-gap: 8px;
   gap: 24px;
-  width: 1158px;
 }
+
+.strategy-list-item {
+  width: calc((100% - 72px) / 4);
+}
+.strategy-text-discr {
+  margin-bottom: 8px;
+}
+
 .our-team-list {
   display: flex;
   column-gap: 24px;
@@ -304,7 +312,8 @@ a {
 }
 .team-section {
   text-align: center;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .our-team-lead {
   margin-bottom: 8px;
@@ -351,5 +360,8 @@ a {
 }
 .end {
   max-width: 264px;
-  margin-top: 16px;
+}
+.logo-footer {
+  display: inline-block;
+  margin-bottom: 16px;
 }
