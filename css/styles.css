@@ -357,8 +357,12 @@ a {
   width: calc((100% - 144) / 6);
 }
 .discr-products {
-  margin: 32px 0;
+  padding: 32px 16px;
   text-align: left;
+  border: 1px solid #e7e9fc;
+}
+.banking-app-container {
+  margin-bottom: 8px;
 }
 
 .footer {
