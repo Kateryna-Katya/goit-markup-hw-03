@@ -297,7 +297,7 @@ a {
 .strategy-list-item {
   width: calc((100% - 72px) / 4);
 }
-.strategy {
+.strategy-margin {
   margin-bottom: 8px;
 }
 
